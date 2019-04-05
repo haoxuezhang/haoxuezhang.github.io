@@ -103,7 +103,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: haoxuezhang
-    repo: blog-comments
+    repo: haoxuezhang.github.io
     clientID: 8a5950d4dbd3f0b8586a
     clientSecret: 85ee136b6f83d01fd93b04c0c0b74bc08b169832
 # 在使用其它评论组件时可点击显示 Disqus
