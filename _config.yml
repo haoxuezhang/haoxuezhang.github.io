@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://www.hjhgo.cn
+url: /
 date_format: "ordinal"
 title: 好学长
 subtitle: "打码改变人生"
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Jiahao He
 organization: 
 organization_url: 
-github_username: mzlogin
+github_username: haoxuezhang
 location: Wuhan, China
-email: chumpma@gmail.com
+email: jiahaohe_123@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -95,14 +95,14 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: haoxuezhang
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: haoxuezhang
     repo: blog-comments
     clientID: d2e1cbbd298958076462
     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
