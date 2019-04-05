@@ -10,7 +10,7 @@ keywords: Ubuntu, mysql, 防火墙, 远程访问
 ## mysql配置远程访问
 配置文件修改，`vim /etc/mysql/my.cnf`,找到 “bind-address = 127.0.0.1” , 这一行要注释掉，只需在前面加个#，即 # bind-address = 127.0.0.1
 然后修改mysql系统权限
-```SQL
+```sql
 mysql -u root -p
 password : 你的密码
 mysql>use mysql;
@@ -19,7 +19,7 @@ mysql>update user set host = '%' where user ='root';
 mysql>flush privileges;
 ```
 再重新启动MySQL
-```
+```sh
 service mysql restart
 ```
 最后也是最重要的一步，阿里云的服务器设置了安全组规则来限制ecs服务器的ip,端口访问策略。因此需要修改。
