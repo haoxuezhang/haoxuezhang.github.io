@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://www.hjhgo.cn
 date_format: "ordinal"
-title: 码志
+title: 好学长
 subtitle: "打码改变人生"
-description: "马壮的个人博客"
+description: "何佳豪的个人博客"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 timezone: Asia/Shanghai
 encoding: "utf-8"
