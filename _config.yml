@@ -5,9 +5,9 @@ baseurl:
 url: 
 date_format: "ordinal"
 title: 好学长
-subtitle: "打码改变人生"
-description: "何佳豪的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+subtitle: "持续学习……"
+description: "何佳豪的个人站点"
+keywords: 好学长，haoxuezhang，何佳豪，hejiahao
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: haoxuezhang/haoxuezhang.github.io
 
 # ---------------- #
 #      Comments    #
