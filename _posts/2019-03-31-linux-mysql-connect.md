@@ -6,6 +6,10 @@ description: Ubuntu下配置mysql远程访问以及防火墙设置
 keywords: Ubuntu, mysql, 防火墙, 远程访问
 ---
 
+远程访问Linux服务器中mysql的配置方法
+
+---
+
 
 ## mysql配置远程访问
 配置文件修改，`vim /etc/mysql/my.cnf`,找到 “bind-address = 127.0.0.1” , 这一行要注释掉，只需在前面加个#，即 # bind-address = 127.0.0.1
