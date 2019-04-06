@@ -31,13 +31,6 @@ http://learning.happymmall.com/QQ学习群大家共享的useful文档/Intellij I
 ## 代码
 1. 首先引入需要的包
 ```python
-# -*- coding: utf-8 -*-
-
-# @Author  : hejiahao
-# @Time    : 2019/4/6 下午2:12
-# @Software: PyCharm
-# @File    : mmall.py
-
 from pyquery import PyQuery as pq
 import requests
 import os
