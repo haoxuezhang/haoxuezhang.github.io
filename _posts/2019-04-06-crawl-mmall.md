@@ -48,7 +48,7 @@ import os
 base_url = 'http://learning.happymmall.com/'
 ```
 
-- 根据URL以及目录下载文件
+3. 根据URL以及目录下载文件
 ```python
 def get_file(url, path):
     if os.path.exists(path):
@@ -61,7 +61,7 @@ def get_file(url, path):
         print('下载完成： ', path)
 ```
 
-3. 递归爬取文件，注意要去除`./`和`../`这连个目录
+4. 递归爬取文件，注意要去除`./`和`../`这连个目录
 ```python
 def get_url(page_url):
     doc = pq(url=page_url)
@@ -88,7 +88,7 @@ def get_url(page_url):
                 # print(os.path.join(page_url, href))
 ```
 
-4. 运行程序
+5. 运行程序
 ```python
 get_url(base_url)
 print('success')
@@ -96,7 +96,7 @@ print('success')
 
 ### 到此为止所有的文件已经爬取到我们自己的电脑上面了，done.
 
-代码比较短，就不上传`github`了，把上面四部分全部复制下来即可。
+代码比较短，就不上传`github`了，把上面五部分全部复制下来即可。
 
 > 从开始提出想法到写完代码不到一个小时，还有很多需要改进的地方，例如在爬取的时候可以用异步方法加速爬取，这个网站比较简单，没有反爬策略，如果有反爬的话还需要考虑加代理。
 
